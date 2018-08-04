@@ -4,8 +4,6 @@ const exec = require('child_process').exec
 const co = require('co')
 const prompt = require('co-prompt')
 const chalk = require('chalk')
-const Metalsmith = require('metalsmith')
-const Handlebars = require('handlebars')
 const rm = require('rimraf').sync
 
 module.exports = (metadata = {}, dest = '.') => {
