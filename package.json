@@ -1,35 +1,26 @@
 {
-  "name": "blog",
+  "name": "vuepress-init",
   "version": "1.0.0",
-  "description": "my blog",
+  "description": "A vuepress template for blog",
   "main": "index.js",
-  "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "bash deploy.sh",
-    "new": "yubisaki post -p docs/blog --page"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lewiscutey/vuepress-init.git"
-  },
   "keywords": [
-    "vuepress",
-    "vuepress-init",
-    "vuepress-init-template",
-    "vuepress-theme",
-    "vuepress-theme-yubisaki"
+    "vue",
+    "vuepress-blog",
+    "vuepress-template"
   ],
+  "bin": {
+    "vuepress": "bin/cli"
+  },
   "author": "lewis",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lewiscutey/vuepress-init/issues"
-  },
-  "homepage": "https://github.com/lewiscutey/vuepress-init#readme",
   "dependencies": {
-    "vuepress": "^0.13.1",
-    "markdown-it-imsize": "^2.0.1",
-    "markdown-it-task-lists": "^2.1.1",
-    "vuepress-theme-yubisaki": "^1.1.9"
+    "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.15.1"
+  },
+  "devDependencies": {
+    "handlebars": "^4.0.11",
+    "metalsmith": "^2.3.0"
   }
 }
