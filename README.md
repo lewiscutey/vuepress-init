@@ -1,1 +1,14 @@
-## 一个简单的vuepress脚手架,用来一键生成vuepress的博客项目！
+##### A simple vuepress scaffolding is used to create a vuepress blog！
+```
+npm i vuepress-init -g
+
+vuepress init
+
+cd <your project> && npm install
+
+npm run dev
+
+npm run new -- <blog name>.md
+
+npm run deploy
+```
