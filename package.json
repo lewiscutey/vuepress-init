@@ -1,6 +1,6 @@
 {
   "name": "vuepress-init",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A vuepress template for blog",
   "main": "index.js",
   "keywords": [
