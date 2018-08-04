@@ -14,7 +14,11 @@
     "url": "git+https://github.com/lewiscutey/vuepress-init.git"
   },
   "keywords": [
-    "vuepress"
+    "vuepress",
+    "vuepress-init",
+    "vuepress-init-template",
+    "vuepress-theme",
+    "vuepress-theme-yubisaki"
   ],
   "author": "lewis",
   "license": "ISC",
