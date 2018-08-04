@@ -1,1 +1,1 @@
-## 一个简单的vuepress脚手架,用来一键生产一个vuepress的博客项目！
+## 一个简单的vuepress脚手架,用来一键生成vuepress的博客项目！
