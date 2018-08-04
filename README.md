@@ -1,2 +1,2 @@
 # vuePress-blog-template
-## 利用vuePress生成的一个静态博客！
+## 一个简单的vuePress项目模板

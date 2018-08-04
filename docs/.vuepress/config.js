@@ -1,12 +1,12 @@
 module.exports = {
     theme: 'yubisaki',
     title: 'HOME', 
-    description: `lewis's blog`,
+    description: `vuepress blog`,
     head: [
         ['link', { rel: 'icon', href: `/favicon.ico` }]
     ],
     base: '/blog/',
-    repo: 'https://github.com/lewiscutey/blog',
+    repo: 'https://github.com/lewiscutey/vuepress-init',
     dest: './docs/.vuepress/dist',
     ga: '',
     serviceWorker: true,
