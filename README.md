@@ -1,7 +1,10 @@
 ##### A simple vuepress scaffolding is used to create a vuepress blog！
+### Installation
 ```
 npm i vuepress-init -g
-
+```
+### Usage
+```
 vuepress init
 
 cd <your project> && npm install
