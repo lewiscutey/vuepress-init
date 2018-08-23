@@ -9,7 +9,7 @@
     "vuepress-template"
   ],
   "bin": {
-    "vuepress": "bin/cli"
+    "vuepress": "./index.js"
   },
   "author": "lewis",
   "license": "ISC",

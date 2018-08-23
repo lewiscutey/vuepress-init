@@ -1,10 +1,9 @@
 #!/usr/bin/env node
-'use strict'
+
 const exec = require('child_process').exec
 const co = require('co')
 const prompt = require('co-prompt')
 const chalk = require('chalk')
-const rm = require('rimraf').sync
 
 module.exports = (metadata = {}, dest = '.') => {
  	co(function *() {
